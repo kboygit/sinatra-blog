@@ -13,5 +13,7 @@ get '/another' do
 end
 
 get '/name/:  name' do
-  "Your name is #{params[:name]}"
+  @name = params[:name]
+  haml :name
+  # "Your name is #{params[:name]}"
 end
