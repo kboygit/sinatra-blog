@@ -1,12 +1,15 @@
 require "sinatra"
 require 'sinatra/reloader'
+require "haml"
 
 get '/' do
-  "Hello World! <a href='/another'> click me </a>"
+  # "Hello World! <a href='/another'> click me </a>"
+  haml :index
 end
 
 get '/another' do
-  "Hello Stranger"
+  # "Hello Stranger"
+  haml :another
 end
 
 get '/name/:  name' do
