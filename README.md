@@ -1,4 +1,4 @@
 + Goals
- - [ ] Understand haml
- - [ ] Learn Sinatra , Learn Micro-framework and sinatra in General :)
- - [x] [Left off](https://www.youtube.com/watch?v=CcMuVVLOgyE)
+ - [x] Understand haml
+  - [x] Indentation/Spacing in HAML is important!
+ - [x] Learn Sinatra , Learn Micro-framework and sinatra in General :)
