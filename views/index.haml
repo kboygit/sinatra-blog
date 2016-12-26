@@ -1,2 +1,6 @@
-%h1 Hello World
-%p How are you?
+#posts
+  - @posts.each do |post|
+    .post
+      %h2=  post[:title]
+      %time=  post[:timestamp]
+      %p= post[:body]
