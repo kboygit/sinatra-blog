@@ -12,6 +12,10 @@ get '/' do
   haml :index
 end
 
+get '/post/:id' do
+  @post = params[:id]
+  haml :blogpost
+end
 # get '/another' do
 #   # "Hello Stranger"
 #   haml :another
